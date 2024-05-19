@@ -1,3 +1,6 @@
 {
-  "item.tyriacraft.sapphire": "Sapphire"
+  "item.tyriacraft.sapphire": "Sapphire",
+  "item.tyriacraft.raw_sapphire": "Raw Sapphire",
+
+  "creativetab.tyriacraft_tab": "TyriaCraft"
 }

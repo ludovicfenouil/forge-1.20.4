@@ -1,8 +1,9 @@
 package net.ludovicfenouil.tyriacraft;
 
 import com.mojang.logging.LogUtils;
-import net.ludovicfenouil.tyriacraft.item.TyriaCraftItems;
-import net.minecraft.world.item.CreativeModeTab;
+import net.ludovicfenouil.tyriacraft.block.TC_Blocks;
+import net.ludovicfenouil.tyriacraft.item.TC_CreativeModTabs;
+import net.ludovicfenouil.tyriacraft.item.TC_Items;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -10,9 +11,7 @@ import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -26,14 +25,14 @@ public class TyriaCraft
     public static final String MOD_ID = "tyriacraft";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
-    //Very important changes !!! hahahaahahah !!!!
 
     public TyriaCraft()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        TyriaCraftItems.register(modEventBus);
-
+        TC_CreativeModTabs.register(modEventBus);
+        TC_Items.register(modEventBus);
+        TC_Blocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -50,7 +49,8 @@ public class TyriaCraft
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(TyriaCraftItems.SAPPHIRE);
+            event.accept(TC_Items.SAPPHIRE);
+            event.accept(TC_Items.RAW_SAPPHIRE);
         }
 
     }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tyriacraft:item/sapphire"
+    "layer0": "tyriacraft:item/raw_sapphire"
   }
 }
