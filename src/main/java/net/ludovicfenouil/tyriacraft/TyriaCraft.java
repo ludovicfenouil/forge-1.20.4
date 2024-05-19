@@ -23,7 +23,7 @@ public class TyriaCraft
     public static final String MOD_ID = "tyriacraft";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
-    //Very important changes !!!
+    //Very important changes !!! hahahaahahah !!!!
 
     public TyriaCraft()
     {
