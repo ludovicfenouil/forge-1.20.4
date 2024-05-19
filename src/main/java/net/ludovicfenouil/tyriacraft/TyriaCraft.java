@@ -1,6 +1,9 @@
 package net.ludovicfenouil.tyriacraft;
 
 import com.mojang.logging.LogUtils;
+import net.ludovicfenouil.tyriacraft.item.TyriaCraftItems;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -29,6 +32,9 @@ public class TyriaCraft
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        TyriaCraftItems.register(modEventBus);
+
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -43,6 +49,9 @@ public class TyriaCraft
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(TyriaCraftItems.SAPPHIRE);
+        }
 
     }
 
