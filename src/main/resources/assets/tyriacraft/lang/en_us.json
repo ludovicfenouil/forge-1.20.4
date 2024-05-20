@@ -1,6 +1,25 @@
 {
+  //Tutorial
   "item.tyriacraft.sapphire": "Sapphire",
   "item.tyriacraft.raw_sapphire": "Raw Sapphire",
 
+  /* BLOCKS */
+  // Mapple Leaves
+  "block.tyriacraft.green_maple_leaves": "Green Maple Leaves",
+  "block.tyriacraft.tender_maple_leaves": "Tender Maple Leaves",
+  "block.tyriacraft.golden_maple_leaves": "Golden Maple Leaves",
+  "block.tyriacraft.burnt_maple_leaves": "Burnt Maple Leaves",
+  "block.tyriacraft.crimson_maple_leaves": "Crimson Maple Leaves",
+  "block.tyriacraft.purple_maple_leaves": "Purple Maple Leaves",
+  // Oak Leaves
+  "block.tyriacraft.golden_oak_leaves": "Golden Oak Leaves",
+  "block.tyriacraft.burnt_oak_leaves": "Burnt Oak Leaves",
+  //Aspen Leaves
+  "block.tyriacraft.green_aspen_leaves": "Green Aspen Leaves",
+  "block.tyriacraft.tender_aspen_leaves": "Tender Aspen Leaves",
+  "block.tyriacraft.golden_aspen_leaves": "Golden Aspen Leaves",
+  "block.tyriacraft.burnt_aspen_leaves": "Burnt Aspen Leaves",
+
+  /* UI */
   "creativetab.tyriacraft_tab": "TyriaCraft"
 }

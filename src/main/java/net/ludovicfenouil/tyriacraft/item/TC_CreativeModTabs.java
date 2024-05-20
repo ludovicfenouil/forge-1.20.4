@@ -1,6 +1,7 @@
 package net.ludovicfenouil.tyriacraft.item;
 
 import net.ludovicfenouil.tyriacraft.TyriaCraft;
+import net.ludovicfenouil.tyriacraft.block.TC_Blocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -18,9 +19,27 @@ public class TC_CreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(TC_Items.SAPPHIRE.get()))
                     .title(Component.translatable("creativetab.tyriacraft_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        /* Tutorial */
                         pOutput.accept(TC_Items.SAPPHIRE.get());
                         pOutput.accept(TC_Items.RAW_SAPPHIRE.get());
-                        pOutput.accept(Items.DIAMOND);
+                        //pOutput.accept(Items.DIAMOND);
+                        /* Maple Leaves */
+                        pOutput.accept(TC_Blocks.GREEN_MAPLE_LEAVES.get());
+                        pOutput.accept(TC_Blocks.TENDER_MAPLE_LEAVES.get());
+                        pOutput.accept(TC_Blocks.GOLDEN_MAPLE_LEAVES.get());
+                        pOutput.accept(TC_Blocks.BURNT_MAPLE_LEAVES.get());
+                        pOutput.accept(TC_Blocks.CRIMSON_MAPLE_LEAVES.get());
+                        pOutput.accept(TC_Blocks.PURPLE_MAPLE_LEAVES.get());
+                        /* Oak Leaves */
+                        pOutput.accept(TC_Blocks.GOLDEN_OAK_LEAVES.get());
+                        pOutput.accept(TC_Blocks.BURNT_OAK_LEAVES.get());
+                        /* Aspen Leaves */
+                        pOutput.accept(TC_Blocks.GREEN_ASPEN_LEAVES.get());
+                        pOutput.accept(TC_Blocks.TENDER_ASPEN_LEAVES.get());
+                        pOutput.accept(TC_Blocks.GOLDEN_ASPEN_LEAVES.get());
+                        pOutput.accept(TC_Blocks.BURNT_ASPEN_LEAVES.get());
+                        /* Beech Leaves */
+
                     })
                     .build());
 

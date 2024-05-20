@@ -1,0 +1,25 @@
+{
+  //Tutoriel
+  "item.tyriacraft.sapphire": "Saphir",
+  "item.tyriacraft.raw_sapphire": "Saphir brut",
+
+  /* BLOCS */
+  // Feuilles d'érable
+  "block.tyriacraft.green_maple_leaves": "Feuilles d'érable vertes",
+  "block.tyriacraft.tender_maple_leaves": "Feuilles d'érable tendres",
+  "block.tyriacraft.golden_maple_leaves": "Feuilles d'érable dorées",
+  "block.tyriacraft.burnt_maple_leaves": "Feuilles d'érable ocres",
+  "block.tyriacraft.crimson_maple_leaves": "Feuilles d'érable cramoisies",
+  "block.tyriacraft.purple_maple_leaves": "Feuilles d'érable pourpres",
+  // Feuilles de chêne
+  "block.tyriacraft.golden_oak_leaves": "Feuilles de chêne dorées",
+  "block.tyriacraft.burnt_oak_leaves": "Feuilles de chêne ocres",
+  // Feuilles de tremble
+  "block.tyriacraft.green_aspen_leaves": "Feuilles de tremble vertes",
+  "block.tyriacraft.tender_aspen_leaves": "Feuilles de tremble tendres",
+  "block.tyriacraft.golden_aspen_leaves": "Feuilles de tremble dorées",
+  "block.tyriacraft.burnt_aspen_leaves": "Feuilles de tremble ocres",
+
+  /* UI */
+  "creativetab.tyriacraft_tab": "TyriaCraft"
+}
