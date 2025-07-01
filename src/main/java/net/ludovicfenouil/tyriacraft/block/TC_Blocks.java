@@ -28,7 +28,7 @@ public class TC_Blocks {
             () -> new LeavesBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).noOcclusion()));
     public static final RegistryObject<Block> GOLDEN_MAPLE_LEAVES = registerBlock("golden_maple_leaves",
             () -> new LeavesBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).noOcclusion()));
-    public static final RegistryObject<Block> BURNT_MAPLE_LEAVES = registerBlock("burnt_maple_leaves",
+    public static final RegistryObject<Block> OCHER_MAPLE_LEAVES = registerBlock("ocher_maple_leaves",
             () -> new LeavesBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).noOcclusion()));
     public static final RegistryObject<Block> CRIMSON_MAPLE_LEAVES = registerBlock("crimson_maple_leaves",
             () -> new LeavesBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).noOcclusion()));
@@ -37,7 +37,9 @@ public class TC_Blocks {
     // Oak Leaves
     public static final RegistryObject<Block> GOLDEN_OAK_LEAVES = registerBlock("golden_oak_leaves",
             () -> new LeavesBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).noOcclusion()));
-    public static final RegistryObject<Block> BURNT_OAK_LEAVES = registerBlock("burnt_oak_leaves",
+    public static final RegistryObject<Block> OCHER_OAK_LEAVES = registerBlock("ocher_oak_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> CRIMSON_OAK_LEAVES = registerBlock("crimson_oak_leaves",
             () -> new LeavesBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).noOcclusion()));
     // Aspen Leaves
     public static final RegistryObject<Block> GREEN_ASPEN_LEAVES = registerBlock("green_aspen_leaves",
@@ -46,7 +48,23 @@ public class TC_Blocks {
             () -> new LeavesBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).noOcclusion()));
     public static final RegistryObject<Block> GOLDEN_ASPEN_LEAVES = registerBlock("golden_aspen_leaves",
             () -> new LeavesBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).noOcclusion()));
-    public static final RegistryObject<Block> BURNT_ASPEN_LEAVES = registerBlock("burnt_aspen_leaves",
+    public static final RegistryObject<Block> OCHER_ASPEN_LEAVES = registerBlock("ocher_aspen_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).noOcclusion()));
+    // Beech Leaves
+    public static final RegistryObject<Block> TENDER_BEECH_LEAVES = registerBlock("tender_beech_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> GOLDEN_BEECH_LEAVES = registerBlock("golden_beech_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> OCHER_BEECH_LEAVES = registerBlock("ocher_beech_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> CRIMSON_BEECH_LEAVES = registerBlock("crimson_beech_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> PURPLE_BEECH_LEAVES = registerBlock("purple_beech_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).noOcclusion()));
+    // Spruce Leaves
+    public static final RegistryObject<Block> FROZEN_SPRUCE_LEAVES = registerBlock("frozen_spruce_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> SNOWY_SPRUCE_LEAVES = registerBlock("snowy_spruce_leaves",
             () -> new LeavesBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).noOcclusion()));
 
 

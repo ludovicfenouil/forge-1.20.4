@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "tyriacraft:block/burnt_aspen_leaves"
+    "all": "tyriacraft:block/ocher_oak_leaves"
   }
 }

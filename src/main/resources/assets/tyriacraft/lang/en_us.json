@@ -8,17 +8,27 @@
   "block.tyriacraft.green_maple_leaves": "Green Maple Leaves",
   "block.tyriacraft.tender_maple_leaves": "Tender Maple Leaves",
   "block.tyriacraft.golden_maple_leaves": "Golden Maple Leaves",
-  "block.tyriacraft.burnt_maple_leaves": "Burnt Maple Leaves",
+  "block.tyriacraft.ocher_maple_leaves": "Ocher Maple Leaves",
   "block.tyriacraft.crimson_maple_leaves": "Crimson Maple Leaves",
   "block.tyriacraft.purple_maple_leaves": "Purple Maple Leaves",
   // Oak Leaves
   "block.tyriacraft.golden_oak_leaves": "Golden Oak Leaves",
-  "block.tyriacraft.burnt_oak_leaves": "Burnt Oak Leaves",
-  //Aspen Leaves
+  "block.tyriacraft.ocher_oak_leaves": "Ocher Oak Leaves",
+  "block.tyriacraft.crimson_oak_leaves": "Crimson Oak Leaves",
+  // Aspen Leaves
   "block.tyriacraft.green_aspen_leaves": "Green Aspen Leaves",
   "block.tyriacraft.tender_aspen_leaves": "Tender Aspen Leaves",
   "block.tyriacraft.golden_aspen_leaves": "Golden Aspen Leaves",
-  "block.tyriacraft.burnt_aspen_leaves": "Burnt Aspen Leaves",
+  "block.tyriacraft.ocher_aspen_leaves": "Ocher Aspen Leaves",
+  // Beech Leaves
+  "block.tyriacraft.tender_beech_leaves": "Tender Beech Leaves",
+  "block.tyriacraft.golden_beech_leaves": "Golden Beech Leaves",
+  "block.tyriacraft.ocher_beech_leaves": "Ocher Beech Leaves",
+  "block.tyriacraft.crimson_beech_leaves": "Crimson Beech Leaves",
+  "block.tyriacraft.purple_beech_leaves": "Purple Beech Leaves",
+  // Spruce Leaves
+  "block.tyriacraft.frozen_spruce_leaves": "Frozen Spruce Leaves",
+  "block.tyriacraft.snowy_spruce_leaves": "Snowy Spruce Leaves",
 
   /* UI */
   "creativetab.tyriacraft_tab": "TyriaCraft"

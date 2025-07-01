@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tyriacraft:block/ocher_maple_leaves"
+  }
+}

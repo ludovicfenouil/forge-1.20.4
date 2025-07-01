@@ -8,17 +8,27 @@
   "block.tyriacraft.green_maple_leaves": "Feuilles d'érable vertes",
   "block.tyriacraft.tender_maple_leaves": "Feuilles d'érable tendres",
   "block.tyriacraft.golden_maple_leaves": "Feuilles d'érable dorées",
-  "block.tyriacraft.burnt_maple_leaves": "Feuilles d'érable ocres",
-  "block.tyriacraft.crimson_maple_leaves": "Feuilles d'érable cramoisies",
+  "block.tyriacraft.ocher_maple_leaves": "Feuilles d'érable ocres",
+  "block.tyriacraft.crimson_maple_leaves": "Feuilles d'érable carmin",
   "block.tyriacraft.purple_maple_leaves": "Feuilles d'érable pourpres",
   // Feuilles de chêne
   "block.tyriacraft.golden_oak_leaves": "Feuilles de chêne dorées",
-  "block.tyriacraft.burnt_oak_leaves": "Feuilles de chêne ocres",
+  "block.tyriacraft.ocher_oak_leaves": "Feuilles de chêne ocres",
+  "block.tyriacraft.crimson_oak_leaves": "Feuilles de chêne carmin",
   // Feuilles de tremble
   "block.tyriacraft.green_aspen_leaves": "Feuilles de tremble vertes",
   "block.tyriacraft.tender_aspen_leaves": "Feuilles de tremble tendres",
   "block.tyriacraft.golden_aspen_leaves": "Feuilles de tremble dorées",
-  "block.tyriacraft.burnt_aspen_leaves": "Feuilles de tremble ocres",
+  "block.tyriacraft.ocher_aspen_leaves": "Feuilles de tremble ocres",
+  // Feuilles de hêtre
+  "block.tyriacraft.tender_beech_leaves": "Feuilles de hêtre tendres",
+  "block.tyriacraft.golden_beech_leaves": "Feuilles de hêtre dorées",
+  "block.tyriacraft.ocher_beech_leaves": "Feuilles de hêtre ocres",
+  "block.tyriacraft.crimson_beech_leaves": "Feuilles de hêtre carmin",
+  "block.tyriacraft.purple_beech_leaves": "Feuilles de hêtre pourpres",
+  // Feuilles de sapin
+  "block.tyriacraft.frozen_spruce_leaves": "Feuilles de sapin gelées",
+  "block.tyriacraft.snowy_spruce_leaves": "Feuilles de sapin enneigées",
 
   /* UI */
   "creativetab.tyriacraft_tab": "TyriaCraft"
